@@ -1,0 +1,17 @@
+button  {
+    font-weight: bold;
+    background: linear-gradient(gray, #00543f);
+    border-radius: 6px;
+    height: 60px;
+    width: 180px;
+    font-size: large;
+    margin-left: 45%;
+    margin-top: 10%;
+    
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 40px; 
+}

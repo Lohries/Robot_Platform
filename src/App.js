@@ -1,8 +1,15 @@
 import './App.css';
+import Enterpage from './screen/Enterpage.js';
 
 function App() {
   return (
-    <p>Hello World</p>
+    <div>
+    
+  
+      <Enterpage/>
+      
+    </div>
+    
   );
 }
 
