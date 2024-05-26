@@ -1,7 +1,7 @@
 import React from "react";
 import Button_Enter from "../components/Button_Enter";
 import '../styles/Enter_page_styles.css'
-import Footer from "../components/Footer";
+
 
 
 const Enterpage = () => {
@@ -9,9 +9,6 @@ const Enterpage = () => {
         <div>
             <Button_Enter/>
             
-            <footer className="">
-
-            </footer>
         </div>
         
     )

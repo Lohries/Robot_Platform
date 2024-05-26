@@ -1,4 +1,4 @@
-button  {
+button {
     font-weight: bold;
     background: linear-gradient(gray, #00543f);
     border-radius: 6px;
@@ -7,11 +7,26 @@ button  {
     font-size: large;
     margin-left: 45%;
     margin-top: 10%;
-    
+    transition: all 0.5s ease;
+}
+
+button:hover {
+    background: linear-gradient(#00543f, gray);
+    transform: scale(1.1);
 }
 
 .buttons {
     display: flex;
     flex-direction: column;
-    gap: 40px; 
+    gap: 40px;
+}
+
+@keyframes button-animation {
+    0% { background-color: #00543f; }
+    50% { background-color: #00785f; }
+    100% { background-color: #00543f; }
+}
+
+button {
+    animation: button-animation 3s infinite;
 }

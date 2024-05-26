@@ -1,5 +1,20 @@
-footer {
-    background-color: gray;
-    color: aqua;
 
+
+.footer {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 20%;
+    border-radius: 5px;
+}
+
+.footer-content p {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
 }

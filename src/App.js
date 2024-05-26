@@ -1,6 +1,6 @@
 import './App.css';
 import Enterpage from './screen/Enterpage.js';
-
+import Footer from './components/Footer.js';
 function App() {
   return (
     <div>
@@ -8,6 +8,7 @@ function App() {
   
       <Enterpage/>
       
+      <Footer/>
     </div>
     
   );

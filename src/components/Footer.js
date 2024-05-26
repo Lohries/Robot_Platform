@@ -4,11 +4,12 @@ import '../styles/Footer_styles.css'
 
 const Footer = () => {
   return (
-    <footer>
-      <p>HHHHH</p>
-      
+    <footer className="footer">
+        <div className="footer-content">
+        
+        </div>
     </footer>
-  )
+);
 }
 
 export default Footer
