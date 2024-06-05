@@ -1,32 +1,48 @@
+/* Style for the button */
 button {
     font-weight: bold;
-    background: linear-gradient(gray, #00543f);
-    border-radius: 6px;
+    background: linear-gradient(45deg, #3dfdcd, gray);
+    border: none;
+    border-radius: 12px;
     height: 60px;
     width: 180px;
     font-size: large;
-    margin-left: 45%;
-    margin-top: 10%;
-    transition: all 0.5s ease;
+    margin: auto;
+    transition: all 0.3s ease;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+/* Hover effect for the button */
 button:hover {
-    background: linear-gradient(#00543f, gray);
-    transform: scale(1.1);
+    background: linear-gradient(45deg, #3dfdcd, gray);
+    transform: scale(1.05);
 }
+
 
 .buttons {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 80vh;
+    margin: 0;
 }
+
 
 @keyframes button-animation {
-    0% { background-color: #00543f; }
-    50% { background-color: #00785f; }
-    100% { background-color: #00543f; }
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
 }
 
+
 button {
-    animation: button-animation 3s infinite;
+    animation: button-animation 4s ease infinite;
+    background-size: 200% 200%;
 }
