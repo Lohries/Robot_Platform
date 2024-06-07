@@ -1,25 +1,19 @@
 import './App.css';
 import Enterpage from './screen/Enterpage.js';
 import ChatPage from './screen/ChatPage.js';
-import Footer from './components/Footer.js';
-import {BrowserRouter as Router, Route, Link, Routes} from 'react-router-dom';
+
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './screen/Home.js';
+import AboutUs from './screen/AboutUs.js';
 
 function App() {
   return (
     <Router>
-      <div>
-      
-        <Route path='/'>
-          <Enterpage/>
-        </Route>
-      
-        
-        <Footer/>
-      </div>
       <Routes>
-        <Route exact path='/' element={<Enterpage/>}/>
-        <Route exact path='/' element={<Home/>}/>
-        <Route exact path='/' element={<ChatPage/>}/>
+          <Route path="/" element={<Enterpage />}/>
+          <Route path="/home" element={<Home />} />
+          <Route path="/chat" element={<ChatPage />} />
+          <Route path="/aboutUs" element={<AboutUs />} />
       </Routes>
     </Router>
     
