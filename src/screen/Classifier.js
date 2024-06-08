@@ -2,14 +2,14 @@ import React from "react";
 import Footer from "../components/Footer";
 
 
-const AboutUs = () => {
+const Classifier= () => {
     return(
         <div>
+            <p>Classification</p>
             <Footer/>
-            
         </div>
         
     )
     
 }
-export default AboutUs
+export default Classifier
