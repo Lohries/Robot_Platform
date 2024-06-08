@@ -1,11 +1,11 @@
 import React from 'react'
-
-const Detections_Button = () => {
+import { Link } from 'react-router-dom'
+const DetectionsButton = () => {
   return (
-    <div>
-      
+    <div class="button-detection">
+      <button>Detection</button>
     </div>
   )
 }
 
-export default Detections_Button
+export default DetectionsButton

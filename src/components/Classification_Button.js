@@ -1,11 +1,11 @@
 import React from 'react'
-
-const Classification_Button = () => {
+import { Link } from 'react-router-dom'
+const ClassificationButton = () => {
   return (
-    <div>
-      
+    <div class="button-classification">
+      <Link to='/classifier'><button>Classification</button></Link>
     </div>
   )
 }
 
-export default Classification_Button
+export default ClassificationButton

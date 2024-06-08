@@ -1,11 +1,11 @@
 import React from 'react'
-
-const Chat_Button = () => {
+import { Link } from 'react-router-dom'
+const ChatButton = () => {
   return (
-    <div>
-      
+    <div class="button-chat">
+      <Link to='/chat'><button>Chat</button></Link>
     </div>
   )
 }
 
-export default Chat_Button
+export default ChatButton
