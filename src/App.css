@@ -8,3 +8,32 @@
     
     
 }
+button {
+    
+    font-weight: bold;
+    background: linear-gradient(45deg, #3dfdcd, gray);
+    border: none;
+    border-radius: 12px;
+    height: 60px;
+    width: 180px;
+    font-size: large;
+    margin: auto;
+    transition: all 0.3s ease;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+/* Hover effect for the button */
+button:hover {
+    background: linear-gradient(45deg, #3dfdcd, gray);
+    transform: scale(1.05);
+}
+button {
+    animation: button-animation 4s ease infinite;
+    background-size: 200% 200%;
+}
