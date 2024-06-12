@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const ChatButton = () => {
   return (
     <div class="button-chat">
-      <Link to='/chat'><button>Chat</button></Link>
+      <Link to='/chat'><button>Chat with inmoov</button></Link>
     </div>
   )
 }
