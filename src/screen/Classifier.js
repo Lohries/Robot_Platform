@@ -1,14 +1,16 @@
 import React from "react";
 import Footer from "../components/Footer";
+import InsertImageButton from "../components/InsertImage_Button";
+import ActivateInmoovEyes from "../components/ActivateEyes";
 
 
 const Classifier= () => {
     return(
-        <div>
-            <p>Classification</p>
+        <div className="spacer">
+            <InsertImageButton/>
+            <ActivateInmoovEyes/>
             <Footer/>
         </div>
-        
     )
     
 }
