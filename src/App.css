@@ -3,11 +3,10 @@
     margin: 0;
     font-family: "Poppins", sans-serif;
     color: white;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     position: relative;
-    
-    
 }
+
 button {
     
     font-weight: bold;
