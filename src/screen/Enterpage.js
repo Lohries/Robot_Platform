@@ -11,7 +11,6 @@ const Enterpage = () => {
         <div>
             <ToggleButton/>
             <ButtonEnter />
-            
             <Footer />
         </div>
         
