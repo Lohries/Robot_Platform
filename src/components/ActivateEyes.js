@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const ActivateInmoovEyes = () => {
   return (
     <div className="activate-button">
-        <button>Activate Inmoov eyes</button>
+        <button className="button">Activate Inmoov eyes</button>
     </div>
   )  
 } 
