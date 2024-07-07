@@ -1,0 +1,21 @@
+.responseArea {
+    background-color: #32c39c;
+
+    width: 90%;
+    min-height: 300px;
+    max-height: 300px;
+    overflow-y: auto;
+    transform: translate(4%, 10%);
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0px 0px 10px #85cdbb;
+}
+
+.text-item {
+    display: block;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #1e755e;
+    margin-bottom: 10px
+}
