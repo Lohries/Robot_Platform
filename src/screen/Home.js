@@ -9,7 +9,7 @@ const Home = () => {
 
     return (
         <div class="spacer">
-            <ToggleButton/>
+            
             <ChatButton/>
             <ClassificationButton/>
             <DetectionsButton/>
