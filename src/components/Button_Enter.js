@@ -5,7 +5,7 @@ const ButtonEnter = () => {
     return(
         <div className='buttons'>
             <Link to='/home'><button>SignUp</button></Link>
-            <Link to='/aboutus'><button>LogIn</button></Link>
+            <Link to='/home'><button>LogIn</button></Link>
         </div>
     )
     
