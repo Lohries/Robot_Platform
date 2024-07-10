@@ -1,8 +1,8 @@
 * {
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
     font-family: "Poppins", sans-serif;
-    color: rgb(255, 255, 255);
+    color: rgb(66, 66, 66);
     background-color: #a4fae4;
     position: relative;
 }
@@ -18,7 +18,7 @@ button {
     font-size: large;
     margin: auto;
     transition: all 0.3s ease;
-    color: white;
+    color: rgb(66, 66, 66);
     cursor: pointer;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     display: flex;
